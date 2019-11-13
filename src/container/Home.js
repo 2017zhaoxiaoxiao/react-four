@@ -25,8 +25,8 @@ export default class Home extends Component {
                     </select>
                    ]} 
                    rightContent={[
-                    <img style={{width:40,height:40,float:"right"}} src={code} alt=""/> ,
-                    <img style={{width:40,height:40,float:"right"}}src={info} alt=""/>,
+                    <img style={{width:26,height:26,float:"right"}} src={code} alt=""/> ,
+                    <img style={{width:26,height:26,float:"right"}}src={info} alt=""/>,
                 ]}
                >
                     

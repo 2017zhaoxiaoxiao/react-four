@@ -19,7 +19,7 @@ export default class Near extends Component {
                     
                 <SearchBar
                     placeholder="找附近的吃喝玩乐"
-                    style={{backgroundColor:"#fff",width:"300px",borderRadius:100,height:'30px'}}
+                    style={{backgroundColor:"#fff",width:"200px",borderRadius:100,height:'30px'}}
                     ref={ref => this.manualFocusInst = ref}
                 />
                     

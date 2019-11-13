@@ -123,10 +123,10 @@ function genData(pIndex = 0) {
             <img style={{ width:'170px',height: '130px', marginRight: '15px' }} src={obj.img} alt="" />
             <div style={{ lineHeight: 1 }}>
               <div style={{ marginBottom: '8px', fontWeight: 'bold' ,fontSize:'18px'}}>{obj.des}</div>
-              <img style={{float:'left'}} src={star}/> 
-              <p style={{float:'left',width:150,margin:0}}>月售{obj.buied}</p>
+              <img style={{float:'left',marginRight:30}} src={star}/> 
+              <p style={{float:'left',margin:0}}>月售{obj.buied}</p>
               <p style={{float:'right',margin:0}}>{obj.time}</p>
-              <p style={{float:'left',margin:"10px 0",marginRight:20}}>起送￥20|配送￥4</p>
+              <p style={{float:'left',margin:"10px 0px"}}>起送￥20|配送￥4</p>
               <p style={{float:'right',margin:"10px 0"}}>{obj.diatance}</p>
             </div> 
           </div>

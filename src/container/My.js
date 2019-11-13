@@ -16,14 +16,12 @@ export default class My extends Component {
     render() {
         return (
             <div style={{width:"100%",backgroundColor:'#e5e5e5'}}>
-                 <NavBar
-                   style={{backgroundColor:'#bc0400',color:'#fff',height:200,width:"100%"}}
-               >
-                <img src={my} style={{width:'410px'}}/>
-                  
+                
+                <img src={my} style={{width:'100%'}}/>   
                    
-               </NavBar> 
+               
                <Tabs tabs={tabs}
+                   
                     initialPage={1}
                     tabBarBackgroundColor={'#a90400'}
                     tabBarActiveTextColor={'#fff'}

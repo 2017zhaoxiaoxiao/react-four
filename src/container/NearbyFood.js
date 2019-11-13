@@ -137,13 +137,13 @@ function genData(pIndex = 0) {
         <div key={rowID} style={{ padding: '0 15px' }}>
          
           <div style={{ display: '-webkit-box', display: 'flex', padding: '15px 0' }}>
-            <img style={{height:'160px', marginRight: '15px' }} src={obj.img} alt="" />
+            <img style={{height:'140px', marginRight: '15px' }} src={obj.img} alt="" />
             <div style={{ lineHeight: 1 }}>
               <p style={{float:'float',margin:0,marginBottom:8, fontWeight: 'bold' ,fontSize:'18px'}}>{obj.title}</p>
-              <img style={{float:'float',marginLeft:'140px'}} src={obj.col}/>
+              <img style={{float:'float',marginLeft:'100px',width:50,height:30}} src={obj.col}/>
               <img style={{height:30,width:400}} src={img[4]}/> 
-              <p style={{marginTop:"20px"}}>{obj.des}</p>
-              <p style={{marginTop:"20px"}}>{obj.time}</p>
+              <p style={{marginTop:"10px"}}>{obj.des}</p>
+              <p style={{marginTop:"10px"}}>{obj.time}</p>
              
   
             </div> 
